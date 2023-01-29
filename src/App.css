@@ -1,0 +1,27 @@
+.app {
+  text-align: center;
+}
+.app > img{
+  width: 100px;
+  object-fit: contain;
+}
+.app__form{
+  padding: 20px;
+  z-index: 1;
+  background-color: #e9e9e9;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  margin: 20px;
+}
+.app__formControl{
+  display: flex !important;
+  flex-direction: row !important;
+
+}
+.app__input{
+  flex: 1;
+
+}
+
+
